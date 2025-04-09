@@ -1,11 +1,11 @@
 import React from 'react'
 import front from '../src/assets/homepage.webp'
 import apple from '../src/assets/image.png'
-import and from '../src/assets/aa.png'
+import and from '../src/assets/playstore.png'
 function Home() {
   return (
-    <div className='m-12  lg:grid grid-cols-2  h-screen '>
-        <div >
+    <div className='m-12 h-screen grid grid-cols-1  md:grid-cols-2   '>
+        <div  className='h-screen mt-15'>
             <div className=' lg:mt-10' >
                 <span className='text-2xl font-bold sm:text-5xl md: text-5xl  '>Your Global Commerce Partner, Engineered for Peak Performance</span><br />
        
@@ -20,7 +20,7 @@ function Home() {
         <span className='text-gray-600 m-5 flex gap-3 '>Also available on <img src={apple} alt="" className='w-5' /> <p><img src={and} alt="" className='w-6' /></p></span>
         </div>
         <div className='overflow-x-hidden'>
-            <img src={front} alt=""  className='absolute  w-[75%]  '/>
+            <img src={front} alt=""  className=' md:absolute md:w-[75%]   '/>
         </div>
        
     </div>
