@@ -8,7 +8,6 @@ function Home() {
         <div  className='h-screen mt-15'>
             <div className=' lg:mt-10' >
                 <span className='text-2xl font-bold sm:text-5xl md: text-5xl  '>Your Global Commerce Partner, Engineered for Peak Performance</span><br />
-       
             </div>
             <div className='lg:mt-5'>
               <span className='text-gray-700 text-lg  '>Launch your eye-catching online store with ease, attract and convert more customers than ever before.</span>

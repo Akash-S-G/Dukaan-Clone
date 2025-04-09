@@ -12,7 +12,7 @@ function Footer() {
     <div className=' p-5 bg-black text-white'>
         <div className='flex'>
 <div><img src={logo} alt="" className='w-full' /></div>
-        <div className='m-5 grid grid-cols-5'>
+        <div className='m-5 grid grid-cols-2 md:grid-cols-5'>
         {
             text.map((link)=>(
                 <div className='p-2 text-md  hover:underline'>

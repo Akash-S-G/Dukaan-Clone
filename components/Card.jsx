@@ -3,7 +3,7 @@ import logo from '../public/card.svg'
 function Card() {
   return (
     <div className='  bg-white flex items-center justify-center h-screen'>
-        <div className='w-9/12 p-6 rounded shadow-md p-4 bg-gradient-to-r from-orange-200 via-red-300 to-pink-400'>
+        <div className=' md:w-9/12 p-6 rounded shadow-md p-4 bg-gradient-to-r from-orange-200 via-red-300 to-pink-400'>
         <div><img src={logo} alt="" className='p-5' /></div>
         <div className='p-4'><span className='text-6xl font-bold'>Start selling online.</span></div>
         <div><span className='w-9/12 text-4xl font-semibold'> Take your business online with Dukaan. Get your free online store in 30 seconds.</span></div>
